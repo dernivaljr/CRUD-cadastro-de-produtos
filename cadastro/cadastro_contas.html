@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Contas</title>
+</head>
+<body>
+    <form name="frm_contas" action="gravar.php" method="post">
+        <h1>Cadastro de Contas</h1>
+        <fieldset>
+            <legend>Informações da Conta</legend>
+            <br>
+            <label for="nome">Nome do usuário:</label>
+            <input type="text" name="txt_usuario" size="60">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="txt_email" size="60">
+            <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="txt_senha" size="10">
+            <br><br>
+            <input type="submit" value="Cadastrar">
+            <br><br>
+            <input type="button" value="Voltar para Login" onclick="window.location.href='login.html'">
+        </fieldset>
+    </form>
+</body>
+</html>
