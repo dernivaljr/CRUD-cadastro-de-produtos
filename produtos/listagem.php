@@ -45,6 +45,7 @@ $resultado = mysqli_fetch_all($sql, MYSQLI_ASSOC);
                 <td><?= intval($produto['estoque']) ?></td>
                 <td>
                     <a class="btn btn-sm btn-outline-primary" href="editar.php?id=<?= intval($produto['id']) ?>">Editar</a>
+                    <a class="btn btn-sm btn-outline-success" href="vender.php?id=<?= intval($produto['id']) ?>">Vender</a>
                     <a class="btn btn-sm btn-outline-danger" href="excluir.php?id=<?= intval($produto['id']) ?>" onclick="return confirm('Confirma a exclusão deste produto?');">Excluir</a>
                 </td>
             </tr>

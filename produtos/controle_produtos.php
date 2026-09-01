@@ -42,7 +42,7 @@ $search = isset($_GET['search']) ? trim($_GET['search']) : '';
                 </div>
             </div>
             <button type="submit" class="btn btn-primary me-4">Cadastrar Produto</button>
-            <button type="button" class="btn btn-primary me-4">Vender Produto</button>
+            <!-- <a href="vender.php" class="btn btn-primary me-4">Vender Produto</a> -->
         </form>
 
         <form method="GET" action="controle_produtos.php" class="mb-4" onsubmit="return false;">
