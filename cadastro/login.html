@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form name="frm_login" action="validar.php" method="post">
+        <h1>Login</h1>
+        <fieldset>
+            <legend>Informações de Login</legend>
+            <br>
+            <label for="login">Usuário ou Email:</label>
+            <input type="text" name="txt_login" size="60">
+            <br><br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="txt_senha" size="10">
+            <br><br>
+            <input type="submit" value="Entrar">
+            <br><br>
+            <input type="button" value="Cadastrar nova conta" onclick="window.location.href='cadastro_contas.html'">
+        </fieldset>
+</body>
+</html>
